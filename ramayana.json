@@ -1,0 +1,288 @@
+{
+  "title": "Ramayana: The Beginning",
+  "sections": [
+    {
+      "title": "Birth of Rama",
+      "description": "King Dasharatha of Ayodhya, despite his vast kingdom, longs for an heir. The gods answer his prayers, blessing him with four sons, including the divine Rama.",
+      "panels": [
+        {
+          "combinedImage": "images/scene1.jpg",
+          "character1": {
+            "nameEnglish": "Dasharatha",
+            "nameSanskrit": "दशरथ",
+            "dialogue": "O wise ministers, despite my vast kingdom and all its wealth, I remain a king without an heir. My heart yearns for children to carry forth the legacy of this great kingdom."
+          },
+          "character2": {
+            "nameEnglish": "Minister",
+            "nameSanskrit": "मन्त्री",
+            "dialogue": "Your Majesty, despair not. The time has come for the Putrakameshti Yagna. Let the sages perform the sacred ritual to invoke the gods' blessings."
+          }
+        },
+        {
+          "combinedImage": "images/scene2.jpg",
+          "character1": {
+            "nameEnglish": "Sage Rishyashringa",
+            "nameSanskrit": "ऋष्यशृङ्ग",
+            "dialogue": "O great King Dasharatha, the gods have heard your prayers. We shall perform the yagna, and soon, the gods will grant you sons, noble and righteous."
+          },
+          "character2": {
+            "nameEnglish": "Divine Messenger",
+            "nameSanskrit": "दिव्य दूत",
+            "dialogue": "Take this divine nectar, O king, and give it to your queens. From this blessing, you shall be the father of four sons, each a jewel of dharma and valor."
+          }
+        },
+        {
+          "combinedImage": "images/scene3.jpg",
+          "character1": {
+            "nameEnglish": "Kausalya",
+            "nameSanskrit": "कौसल्या",
+            "dialogue": "Behold our son, Rama, the light of our lives. He shall bring honor to our lineage and protect the world from evil."
+          },
+          "character2": {
+            "nameEnglish": "Dasharatha",
+            "nameSanskrit": "दशरथ",
+            "dialogue": "Rama, my beloved son! Born by the grace of the gods, you shall lead with righteousness and courage."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Sage Vishwamitra and Rama",
+      "description": "As Rama and his brother Lakshmana grow into young princes, the great sage Vishwamitra arrives at the court of Ayodhya seeking their help to protect his sacred rituals from demonic forces.",
+      "panels": [
+        {
+          "combinedImage": "images/scene4.jpg",
+          "character1": {
+            "nameEnglish": "Vishwamitra",
+            "nameSanskrit": "विश्वामित्र",
+            "dialogue": "O King Dasharatha, I come seeking your sons' help. The demons disturb my yagna, and only your valiant sons, Rama and Lakshmana, can vanquish these evil forces."
+          },
+          "character2": {
+            "nameEnglish": "Dasharatha",
+            "nameSanskrit": "दशरथ",
+            "dialogue": "But Rama is so young, wise sage. How can I send my sons into the wilderness to fight demons?"
+          }
+        },
+        {
+          "combinedImage": "images/scene5.jpg",
+          "character1": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Father, fear not. I am ready to serve Sage Vishwamitra and defend his yagna. It is my duty to protect the innocent and fight evil."
+          },
+          "character2": {
+            "nameEnglish": "Lakshmana",
+            "nameSanskrit": "लक्ष्मण",
+            "dialogue": "And I shall stand by my brother, no matter the danger!"
+          }
+        },
+        {
+          "combinedImage": "images/scene6.jpg",
+          "character1": {
+            "nameEnglish": "Tataka",
+            "nameSanskrit": "ताटका",
+            "dialogue": "Who dares disturb my domain? You shall pay for your insolence!"
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Tataka, your reign of terror ends here. I will not allow you to harm the innocent any longer."
+          }
+        },
+        {
+          "combinedImage": "images/scene7.jpg",
+          "character1": {
+            "nameEnglish": "Vishwamitra",
+            "nameSanskrit": "विश्वामित्र",
+            "dialogue": "For your courage and skill, I bestow upon you these divine weapons. May they serve you in future battles against greater evils."
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Thank you, noble sage. I shall wield these weapons with honor, to protect dharma and vanquish adharma wherever it may rise."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Sita's Swayamvara",
+      "description": "A grand hall in the palace of Mithila, adorned with flowers and rich decorations. Princes from various kingdoms have gathered for Sita's swayamvara. King Janaka stands proudly on the throne, with Sita beside him.",
+      "panels": [
+        {
+          "combinedImage": "images/scene8.jpg",
+          "character1": {
+            "nameEnglish": "King Janaka",
+            "nameSanskrit": "जनक",
+            "dialogue": "Welcome, noble princes! Today, the hand of my daughter, Sita, shall be won by the one who can string the mighty bow of Lord Shiva. This is no ordinary task; only the strongest and most worthy shall succeed!"
+          },
+          "character2": {
+            "nameEnglish": "Sage Vishwamitra",
+            "nameSanskrit": "विश्वामित्र",
+            "dialogue": "Behold, Rama! You possess the strength and valor to achieve what others could not."
+          }
+        },
+        {
+          "combinedImage": "images/scene9.jpg",
+          "character1": {
+            "nameEnglish": "Sita",
+            "nameSanskrit": "सीता",
+            "dialogue": "Who is this prince? There is something divine about him."
+          },
+          "character2": {
+            "nameEnglish": "King Janaka",
+            "nameSanskrit": "जनक",
+            "dialogue": "He has done it! Rama, you have proven yourself worthy! Sita is yours!"
+          }
+        },
+        {
+          "combinedImage": "images/scene10.jpg",
+          "character1": {
+            "nameEnglish": "Sita",
+            "nameSanskrit": "सीता",
+            "dialogue": "With you, Rama, I feel a connection deeper than mere destiny. Together, we shall uphold dharma."
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Beloved Sita, our union is blessed by the gods. We shall walk the path of righteousness together."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Kaikeyi's Boon and Rama's Exile",
+      "description": "The royal palace in Ayodhya. King Dasharatha sits on the throne, surrounded by ministers and the royal family. Queen Kaikeyi stands nearby, looking troubled.",
+      "panels": [
+        {
+          "combinedImage": "images/scene11.jpg",
+          "character1": {
+            "nameEnglish": "Queen Kaikeyi",
+            "nameSanskrit": "कैकेयी",
+            "dialogue": "I cannot bear to see Bharata overshadowed by Rama. It is time to act."
+          },
+          "character2": {
+            "nameEnglish": "Manthara",
+            "nameSanskrit": "मन्थरा",
+            "dialogue": "Remember the two boons your husband promised you! Demand them now!"
+          }
+        },
+        {
+          "combinedImage": "images/scene12.jpg",
+          "character1": {
+            "nameEnglish": "Queen Kaikeyi",
+            "nameSanskrit": "कैकेयी",
+            "dialogue": "O King Dasharatha, I demand the fulfillment of my boons. First, I ask that Bharata be crowned king. Second, I ask that Rama be exiled for 14 years."
+          },
+          "character2": {
+            "nameEnglish": "King Dasharatha",
+            "nameSanskrit": "दशरथ",
+            "dialogue": "Kaikeyi, why would you wish such a thing? Rama is my eldest son! He has done no wrong!"
+          }
+        },
+        {
+          "combinedImage": "images/scene13.jpg",
+          "character1": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Father, I will accept my exile without hesitation. My duty is to honor your wishes and maintain peace in the kingdom."
+          },
+          "character2": {
+            "nameEnglish": "King Dasharatha",
+            "nameSanskrit": "दशरथ",
+            "dialogue": "O Rama, my heart breaks, but I shall respect your noble spirit. May the gods protect you."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Life in Exile",
+      "description": "Rama, Sita, and Lakshmana settle in the dense forests of Dandaka, facing new challenges and encounters.",
+      "panels": [
+        {
+          "combinedImage": "images/scene14.jpg",
+          "character1": {
+            "nameEnglish": "Sita",
+            "nameSanskrit": "सीता",
+            "dialogue": "Though we live in exile, this forest has its charm. It feels like a new beginning."
+          },
+          "character2": {
+            "nameEnglish": "Lakshmana",
+            "nameSanskrit": "लक्ष्मण",
+            "dialogue": "But the dangers of the forest are many. We must remain vigilant."
+          }
+        },
+        {
+          "combinedImage": "images/scene15.jpg",
+          "character1": {
+            "nameEnglish": "Sage Agastya",
+            "nameSanskrit": "अगस्त्य",
+            "dialogue": "Welcome, Rama, Sita, and Lakshmana. You carry the light of dharma. Continue your journey, and you will encounter sages who shall guide you."
+          },
+          "character2": {
+            "nameEnglish": "Viradha",
+            "nameSanskrit": "विराध",
+            "dialogue": "You cannot escape me! I will take Sita!"
+          }
+        },
+        {
+          "combinedImage": "images/scene16.jpg",
+          "character1": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Evil shall not prevail! We shall protect our dharma!"
+          },
+          "character2": {
+            "nameEnglish": "Shabari",
+            "nameSanskrit": "शबरी",
+            "dialogue": "O Rama, you are the hope of the world. May your journey be blessed with strength and victory."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Surpanakha's Revenge",
+      "description": "Surpanakha, sister of Ravana, encounters Rama and faces humiliation, leading to a fierce battle.",
+      "panels": [
+        {
+          "combinedImage": "images/scene17.jpg",
+          "character1": {
+            "nameEnglish": "Surpanakha",
+            "nameSanskrit": "सूर्पणखा",
+            "dialogue": "What a handsome prince! I must have him for myself."
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "I am devoted to my wife, Sita. Please respect our bond."
+          }
+        },
+        {
+          "combinedImage": "images/scene18.jpg",
+          "character1": {
+            "nameEnglish": "Sita",
+            "nameSanskrit": "सीता",
+            "dialogue": "Help, Lakshmana!"
+          },
+          "character2": {
+            "nameEnglish": "Lakshmana",
+            "nameSanskrit": "लक्ष्मण",
+            "dialogue": "Leave this place, demoness! You shall not harm my beloved!"
+          }
+        },
+        {
+          "combinedImage": "images/scene19.jpg",
+          "character1": {
+            "nameEnglish": "Surpanakha",
+            "nameSanskrit": "सूर्पणखा",
+            "dialogue": "You will pay for this humiliation, Rama! I will summon my brothers, Khara and Dushana!"
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Evil shall not conquer virtue. We will protect dharma at all costs!"
+          }
+        }
+      ]
+    }
+  ]
+}

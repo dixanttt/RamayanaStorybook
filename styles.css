@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #4a4a4a;
+    --secondary-color: #f0e68c;
+    --accent-color: #ff6b6b;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+    --card-background: #fff;
+}
+
+.dark-theme {
+    --primary-color: #b0b0b0;
+    --secondary-color: #8b8000;
+    --accent-color: #ff4757;
+    --text-color: #e0e0e0;
+    --background-color: #1a1a1a;
+    --card-background: #2a2a2a;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.storybook {
+    background-color: var(--card-background);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    position: relative;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#story-title {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.scene {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+.combined-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.speech-bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.speech-bubble {
+    background-color: var(--card-background);
+    border: 2px solid var(--accent-color);
+    border-radius: 20px;
+    padding: 1rem;
+    position: relative;
+    min-height: 80px;
+    max-width: 45%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.speech-bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    border-width: 12px 12px 0;
+    border-style: solid;
+    border-color: var(--accent-color) transparent;
+}
+
+.speech-bubble.left::before {
+    left: 20%;
+}
+
+.speech-bubble.right::before {
+    right: 20%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.nav-btn {
+    background-color: var(--accent-color);
+    color: var(--card-background);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.section-description {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--accent-color);
+    color: var(--card-background);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .speech-bubbles {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speech-bubble {
+        max-width: 80%;
+        margin-bottom: 1rem;
+    }
+}
+
+.story-nav {
+    margin-bottom: 2rem;
+}
+
+.story-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.story-nav li {
+    background-color: var(--accent-color);
+    color: var(--card-background);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.story-nav li:hover, .story-nav li.active {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.character-name {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--accent-color);
+}
+
+.dialogue {
+    line-height: 1.4;
+}
