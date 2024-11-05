@@ -10,7 +10,17 @@ function showStory(sectionIndex, panelIndex) {
     document.getElementById('story-title').textContent = storyData.title;
     document.getElementById('section-title').textContent = section.title;
     document.getElementById('section-description').textContent = section.description;
-    document.getElementById('combined-image').style.backgroundImage = `url(${panel.combinedImage})`;
+
+    const combinedImage = document.getElementById('combined-image');
+
+    // Fade out before changing the image
+    combinedImage.style.opacity = '0';
+
+    // Change image after fading out
+    setTimeout(() => {
+        combinedImage.style.backgroundImage = `url(${panel.combinedImage})`;
+        combinedImage.style.opacity = '1'; // Fade back in
+    }, 500); // Match this timeout with your CSS transition duration
 
     // dialogue for the first character
     showDialogue('speech1', 'character1-name', 'character1-dialogue', panel.character1);
