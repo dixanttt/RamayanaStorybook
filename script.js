@@ -13,14 +13,12 @@ function showStory(sectionIndex, panelIndex) {
 
     const combinedImage = document.getElementById('combined-image');
 
-    // Fade out before changing the image
+    // for good transitions
     combinedImage.style.opacity = '0';
-
-    // Change image after fading out
     setTimeout(() => {
         combinedImage.style.backgroundImage = `url(${panel.combinedImage})`;
-        combinedImage.style.opacity = '1'; // Fade back in
-    }, 500); // Match this timeout with your CSS transition duration
+        combinedImage.style.opacity = '1';
+    }, 500); 
 
     // dialogue for the first character
     showDialogue('speech1', 'character1-name', 'character1-dialogue', panel.character1);
