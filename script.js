@@ -41,7 +41,7 @@ function showDialogue(speechId, nameId, dialogueId, character) {
     // Type out the dialogue text
     typeText(dialogueElement, character.dialogue, () => {
         if (speechId === 'speech2') {
-            setTimeout(nextPanel, 2000); 
+            setTimeout(nextPanel, 3000); // to change panel time (for the delay before moving to the next panel)
         }
     });
 }
