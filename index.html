@@ -4,44 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramayana Interactive Storybook</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./landing.css">
+    
 </head>
 <body>
+    <header>
+        <h1>Ramayana Interactive Storybook</h1>
+        <p>Explore the epic tale of Ramayana through an interactive digital experience</p>
+        <a href="main.html" class="button">Start Reading</a>
+    </header>
+
     <div class="container">
-        <div id="storybook" class="storybook">
-            <h1 id="story-title"></h1>
+        <section>
+            <h2>About the Project</h2>
+            <p>This interactive storybook brings the ancient Indian epic Ramayana to life through a combination of text, images, and user interaction. Navigate through different sections of the story, enjoy beautiful illustrations, and immerse yourself in the world of Rama, Sita, and their adventures. Key features of this project include:</p>
+            <ul>
+                <li>Interactive storytelling experience</li>
+                <li>Beautiful illustrations for each scene</li>
+                <li>Character dialogues with typing effect</li>
+                <li>Easy navigation between story sections</li>
+                <li>Dark mode for comfortable reading</li>
+            </ul><br>
 
-            <nav class="story-nav">
-                <ul id="story-sections"></ul>
-            </nav>      
-
-            <div id="section-title" class="section-title"></div>
-            <div id="section-description" class="section-description"></div>
-            <div id="scene" class="scene">
-                <div id="combined-image" class="combined-image"></div>
-                <div id="speech-bubbles" class="speech-bubbles">
-                    <div id="speech1" class="speech-bubble left">
-                        <div class="character-name" id="character1-name"></div>
-                        <div class="dialogue" id="character1-dialogue"></div>
-                    </div>
-                    <div id="speech2" class="speech-bubble right">
-                        <div class="character-name" id="character2-name"></div>
-                        <div class="dialogue" id="character2-dialogue"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="landing-link">
-            <a href="landing.html" class="button">Landing Page</a>
-        </div>
-
+            <h2>Credits and Resources</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Ramayana#B%C4%81la_K%C4%81%E1%B9%87%E1%B8%8Da" target="_blank">Valmiki Ramayana</a> - Source for the Ramayana story</li>
+                <li><a href="https://youtu.be/08w8PHKjRVQ?si=GdCnxOOBWP_H83S7" target="_blank">CSS Speech Bubbles Tutorial</a> - YouTube tutorial for creating speech bubbles</li>
+                <li><a href="https://github.com/LimitlessProgrammer/interactive-storybook" target="_blank">GitHub Repository</a> - Inspiration for interactive storytelling</li>
+                <li><a href="https://www.adobe.com/products/photoshop.html?msockid=1ac12b98fb5c6863026b390cfaf669b7" target="_blank">Adobe Photoshop</a> - Tool used for generating AI images in this project</li>
+                
+            </ul>
+        </section>
     </div>
-    <button id="theme-toggle" class="theme-toggle">
-        <i class="fas fa-moon"></i>
-    </button>
-    <script src="./script.js"></script>
+
+    <footer>
+        <p>&copy; Ramayana Interactive Storybook. All rights reserved.</p>
+    </footer>
 </body>
 </html>

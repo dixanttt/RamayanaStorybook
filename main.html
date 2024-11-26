@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramayana Interactive Storybook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="storybook" class="storybook">
+            <h1 id="story-title"></h1>
+
+            <nav class="story-nav">
+                <ul id="story-sections"></ul>
+            </nav>      
+
+            <div id="section-title" class="section-title"></div>
+            <div id="section-description" class="section-description"></div>
+            <div id="scene" class="scene">
+                <div id="combined-image" class="combined-image"></div>
+                <div id="speech-bubbles" class="speech-bubbles">
+                    <div id="speech1" class="speech-bubble left">
+                        <div class="character-name" id="character1-name"></div>
+                        <div class="dialogue" id="character1-dialogue"></div>
+                    </div>
+                    <div id="speech2" class="speech-bubble right">
+                        <div class="character-name" id="character2-name"></div>
+                        <div class="dialogue" id="character2-dialogue"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="landing-link">
+            <a href="index.html" class="button">Landing Page</a>
+        </div>
+
+    </div>
+    <button id="theme-toggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    <script src="./script.js"></script>
+</body>
+</html>
