@@ -1,3 +1,4 @@
+/* Colors*/
 :root {
     --primary-color: #4a4a4a;
     --secondary-color: #f0e68c;
@@ -7,6 +8,7 @@
     --card-background: #fff;
 }
 
+/* Dark theme */
 .dark-theme {
     --primary-color: #b0b0b0;
     --secondary-color: #8b8000;
@@ -16,12 +18,14 @@
     --card-background: #2a2a2a;
 }
 
+/* General Reset and Box-Sizing */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Body Styling */
 body {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
@@ -29,23 +33,35 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     transition: background-color 0.3s ease, color 0.3s ease;
+    height: 100vh;
 }
 
+/* Container to center content */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
 }
 
+/* Storybook Styling */
 .storybook {
     background-color: var(--card-background);
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    padding: 2rem;
+    padding: 1.5rem;
     position: relative;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    max-height: 120vh;
+    overflow-y: hidden;
+    width: 100%; 
+    max-width: 1200px;
 }
 
+/* Main Story Title */
 #story-title {
     font-size: 2.5rem;
     color: var(--accent-color);
@@ -53,13 +69,15 @@ body {
     margin-bottom: 1rem;
 }
 
+/* Section Title */
 .section-title {
     font-size: 1.8rem;
     color: var(--secondary-color);
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
+/* Scene Styling */
 .scene {
     position: relative;
     width: 100%;
@@ -67,6 +85,7 @@ body {
     margin-bottom: 2rem;
 }
 
+/* Combined Image */
 .combined-image {
     width: 100%;
     height: 100%;
@@ -77,6 +96,7 @@ body {
     opacity: 1;
 }
 
+/* Speech Bubbles Positioning */
 .speech-bubbles {
     position: absolute;
     top: 0;
@@ -89,6 +109,7 @@ body {
     padding: 20px;
 }
 
+/* Individual Speech Bubble */
 .speech-bubble {
     background-color: var(--card-background);
     border: 2px solid var(--accent-color);
@@ -102,6 +123,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Arrow for Speech Bubble */
 .speech-bubble::before {
     content: '';
     position: absolute;
@@ -119,12 +141,14 @@ body {
     right: 20%;
 }
 
+/* Navigation Styling */
 .navigation {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
 }
 
+/* Navigation Button Styling */
 .nav-btn {
     background-color: var(--accent-color);
     color: var(--card-background);
@@ -136,15 +160,17 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Hover Effect for Navigation Buttons */
 .nav-btn:hover {
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
 
+/* Section Description */
 .section-description {
     font-size: 1.1rem;
     color: var(--primary-color);
-    margin: 1rem 0 2rem 0;
+    margin: 0.5rem 0 2rem 0;
     text-align: center;
     line-height: 1.6;
     max-width: 80%;
@@ -152,6 +178,7 @@ body {
     margin-right: auto;
 }
 
+/* Theme Toggle Button */
 .theme-toggle {
     position: fixed;
     top: 20px;
@@ -167,11 +194,13 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Hover Effect for Theme Toggle */
 .theme-toggle:hover {
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
 
+/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .speech-bubbles {
         flex-direction: column;
@@ -184,8 +213,9 @@ body {
     }
 }
 
+/* Story Navigation List */
 .story-nav {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .story-nav ul {
@@ -205,56 +235,78 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Hover and Active States for Navigation */
 .story-nav li:hover, .story-nav li.active {
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
 
+/* Character Name Styling */
 .character-name {
     font-weight: bold;
     margin-bottom: 0.5rem;
     color: var(--accent-color);
 }
 
+/* Dialogue Styling */
 .dialogue {
     line-height: 1.4;
 }
 
-
-/* for zoom out */
+/* Zoom Out Effect */
 body {
     transform: scale(0.8);
     transform-origin: top left;
-    width: 125%; 
+    width: 125%;
     height: 125%;
     overflow-x: hidden;
-  }
-  
-  .container {
-    max-width: 1250px; 
-  }
+}
 
-  @media (min-width: 1200px) {
+.container {
+    max-width: 1400px;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media Queries for Zoom Effects */
+@media (min-width: 1200px) {
     body {
-      transform: scale(0.8);
-      width: 125%;
-      height: 125%;
+        transform: scale(0.8);
+        width: 125%;
+        height: 125%;
     }
-  }
-  
-  @media (max-width: 1199px) {
+}
+
+@media (max-width: 1199px) {
     body {
-      transform: scale(0.9);
-      width: 111.11%;
-      height: 111.11%;
+        transform: scale(0.9);
+        width: 111.11%;
+        height: 111.11%;
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     body {
-      transform: scale(1);
-      width: 100%;
-      height: 100%;
+        transform: scale(1);
+        width: 100%;
+        height: 100%;
     }
-  }
-  
+}
+
+/* Landing Page Link */
+.landing-link {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+.landing-link {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}

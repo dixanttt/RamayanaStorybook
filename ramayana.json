@@ -283,6 +283,205 @@
           }
         }
       ]
+    },
+    {
+      "title": "The Abduction of Sita",
+      "description": "Ravana, the demon king of Lanka, devises a plan to abduct Sita with the help of Maricha.",
+      "panels": [
+        {
+          "combinedImage": "images/scene20.jpg",
+          "character1": {
+            "nameEnglish": "Ravana",
+            "nameSanskrit": "रावण",
+            "dialogue": "Maricha, you must help me abduct Sita. Transform into a golden deer to lure Rama away."
+          },
+          "character2": {
+            "nameEnglish": "Maricha",
+            "nameSanskrit": "मारीच",
+            "dialogue": "But my lord, this plan is dangerous. Rama's power is not to be underestimated."
+          }
+        },
+        {
+          "combinedImage": "images/scene21.jpg",
+          "character1": {
+            "nameEnglish": "Sita",
+            "nameSanskrit": "सीता",
+            "dialogue": "Rama, look at that beautiful golden deer! Can you catch it for me?"
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Sita, I sense danger. But if it pleases you, I shall pursue it. Lakshmana, guard Sita with your life."
+          }
+        },
+        {
+          "combinedImage": "images/scene22.jpg",
+          "character1": {
+            "nameEnglish": "Ravana",
+            "nameSanskrit": "रावण",
+            "dialogue": "At last, Sita is unprotected. Now is my chance to take her to Lanka!"
+          },
+          "character2": {
+            "nameEnglish": "Sita",
+            "nameSanskrit": "सीता",
+            "dialogue": "Help! Rama! Lakshmana! Save me from this demon!"
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Search for Sita",
+      "description": "Rama and Lakshmana begin their quest to find Sita, forming alliances with Sugriva and Hanuman.",
+      "panels": [
+        {
+          "combinedImage": "images/scene23.jpg",
+          "character1": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Lakshmana, we must find Sita at all costs. Let us seek help from the vanar king Sugriva."
+          },
+          "character2": {
+            "nameEnglish": "Sugriva",
+            "nameSanskrit": "सुग्रीव",
+            "dialogue": "O Rama, I will help you find Sita if you help me reclaim my kingdom from my brother Vali."
+          }
+        },
+        {
+          "combinedImage": "images/scene24.jpg",
+          "character1": {
+            "nameEnglish": "Hanuman",
+            "nameSanskrit": "हनुमान",
+            "dialogue": "My lord Rama, I am Hanuman, devoted servant of Sugriva. I pledge my life to your cause."
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Hanuman, your devotion moves me. Together, we shall rescue Sita and restore dharma."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Hanuman's Leap to Lanka",
+      "description": "Hanuman embarks on a perilous journey across the ocean to find Sita in Lanka.",
+      "panels": [
+        {
+          "combinedImage": "images/scene25.jpg",
+          "character1": {
+            "nameEnglish": "Hanuman",
+            "nameSanskrit": "हनुमान",
+            "dialogue": "With Rama's name on my lips and his strength in my heart, I shall leap across this vast ocean!"
+          },
+          "character2": {
+            "nameEnglish": "Sampati",
+            "nameSanskrit": "सम्पाति",
+            "dialogue": "Brave Hanuman, Sita is held captive in Lanka, ruled by the demon king Ravana."
+          }
+        },
+        {
+          "combinedImage": "images/scene26.jpg",
+          "character1": {
+            "nameEnglish": "Hanuman",
+            "nameSanskrit": "हनुमान",
+            "dialogue": "At last, I have found you, Mother Sita! Rama sends his love and vows to rescue you soon."
+          },
+          "character2": {
+            "nameEnglish": "Sita",
+            "nameSanskrit": "सीता",
+            "dialogue": "O Hanuman! Your arrival gives me hope. Tell Rama I await his coming with unwavering faith."
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Battle of Lanka",
+      "description": "Rama leads his army of vanaras to Lanka, engaging in an epic battle against Ravana's forces.",
+      "panels": [
+        {
+          "combinedImage": "images/scene27.jpg",
+          "character1": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Today, we fight not just for Sita, but for the triumph of good over evil. Charge, my brave warriors!"
+          },
+          "character2": {
+            "nameEnglish": "Ravana",
+            "nameSanskrit": "रावण",
+            "dialogue": "Your puny army is no match for my demonic forces, Rama! Lanka shall be your grave!"
+          }
+        },
+        {
+          "combinedImage": "images/scene28.jpg",
+          "character1": {
+            "nameEnglish": "Lakshmana",
+            "nameSanskrit": "लक्ष्मण",
+            "dialogue": "Brother, I have been struck by Indrajit's powerful weapon. I fear I may not survive."
+          },
+          "character2": {
+            "nameEnglish": "Hanuman",
+            "nameSanskrit": "हनुमान",
+            "dialogue": "Fear not, my lord! I shall bring the entire mountain with the life-saving herb to cure Lakshmana!"
+          }
+        },
+        {
+          "combinedImage": "images/scene29.jpg",
+          "character1": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "This ends now, Ravana! Face me in battle and meet your doom!"
+          },
+          "character2": {
+            "nameEnglish": "Ravana",
+            "nameSanskrit": "रावण",
+            "dialogue": "You may have defeated my army, Rama, but you shall never defeat me!"
+          }
+        }
+      ]
+    },
+    {
+      "title": "The Reunion and Return",
+      "description": "Rama defeats Ravana, rescues Sita, and returns triumphantly to Ayodhya.",
+      "panels": [
+        {
+          "combinedImage": "images/scene30.jpg",
+          "character1": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Sita, at last, we are reunited. The evil has been vanquished, and dharma restored."
+          },
+          "character2": {
+            "nameEnglish": "Sita",
+            "nameSanskrit": "सीता",
+            "dialogue": "My lord, my faith in you never wavered. Let us return to Ayodhya and begin our reign of righteousness."
+          }
+        },
+        {
+          "combinedImage": "images/scene31.jpg",
+          "character1": {
+            "nameEnglish": "Bharata",
+            "nameSanskrit": "भरत",
+            "dialogue": "Brother, Ayodhya awaits its true king. The throne is yours, as it always should have been."
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "Bharata, your loyalty and dharma shine bright. Together, we shall rule Ayodhya with justice and compassion."
+          }
+        },
+        {
+          "combinedImage": "images/scene32.jpg",
+          "character1": {
+            "nameEnglish": "Hanuman",
+            "nameSanskrit": "हनुमान",
+            "dialogue": "My lord Rama, your story of virtue and valor shall inspire generations to come."
+          },
+          "character2": {
+            "nameEnglish": "Rama",
+            "nameSanskrit": "राम",
+            "dialogue": "And you, dear Hanuman, shall forever be remembered as the epitome of devotion and strength."
+          }
+        }
+      ]
     }
   ]
 }
